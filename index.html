@@ -3,6 +3,7 @@
 <link rel="icon" type="image/png" href="favicon.png"/>
 <link rel="apple-touch-icon" href="favicon.png"/>
 <title>TechFoundry — Products</title>
+<meta name="description" content="Apps and tools built by TechFoundry: dendra, a typed RPC &amp; MCP framework for TypeScript, and Glean, a private document scanner."/>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet"/>
 <style>
 :root{--ground:#F4EFFB;--text:#1C1B22;--muted:#6B6976;--accent:#6326C2;--border:rgba(99,38,194,.12)}
@@ -16,6 +17,8 @@ a.card{display:flex;align-items:center;gap:14px;text-decoration:none;color:inher
 border:1px solid var(--border);border-radius:18px;padding:20px 22px;transition:transform .2s,box-shadow .2s}
 a.card:hover{transform:translateY(-3px);box-shadow:0 18px 40px -24px rgba(40,16,90,.35)}
 .mark{width:42px;height:42px;border-radius:12px;flex:none;display:block;object-fit:cover}
+.mark.tile{background:#EEF1FF;padding:4px}
+a.card+a.card{margin-top:12px}
 .card h2{margin:0;font-size:18px;font-weight:700}.card p{margin:2px 0 0;color:var(--muted);font-size:14px}
 .arrow{margin-left:auto;color:var(--accent);font-weight:700}
 footer{margin-top:28px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted)}
@@ -23,6 +26,8 @@ footer{margin-top:28px;font-family:"JetBrains Mono",monospace;font-size:12px;col
 <div class="eyebrow">TechFoundry</div>
 <h1>Products</h1>
 <p class="sub">Apps and tools built by TechFoundry.</p>
+<a class="card" href="dendra/"><img class="mark tile" src="dendra-icon.svg" alt="dendra logo" />
+<div><h2>dendra</h2><p>Typed RPC &amp; MCP framework for TypeScript and Next.js</p></div><span class="arrow">→</span></a>
 <a class="card" href="glean/"><img class="mark" src="glean-icon.png" alt="Glean app icon" />
 <div><h2>Glean</h2><p>Private document scanner — scan to searchable PDF</p></div><span class="arrow">→</span></a>
 <footer>© 2026 TechFoundry</footer>
